@@ -29,7 +29,6 @@ AgeGroup = SWITCH(
             ANCTbl[FirstTrimesterVisits],
             ANCTbl[SecondTrimesterVisits],
             ANCTbl[ThirdTrimesterVisits]
-           
         ),
         ANCTbl[FirstTrimesterVisits]>=1 && ANCTbl[SecondTrimesterVisits]>=1 && ANCTbl[ThirdTrimesterVisits]>=2 &&
         (ANCTbl[FirstTrimesterVisits]+ANCTbl[SecondTrimesterVisits] + ANCTbl[ThirdTrimesterVisits])>=4
